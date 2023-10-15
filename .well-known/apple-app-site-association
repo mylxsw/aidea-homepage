@@ -1,0 +1,17 @@
+{
+    "applinks":
+    {
+        "apps": [],
+        "details":
+        [
+            {
+                "appID": "N95437SZ2A.cc.aicode.flutter.askaide.askaide",
+                "paths":
+                [
+                    "/wechat-login/*",
+                    "/wechat-links/*"
+                ]
+            }
+        ]
+    }
+}

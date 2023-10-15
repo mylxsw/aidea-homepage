@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>智慧果使用说明</title>
+  </head>
+  <body>
+<div class="container">
+
+
+<h4><a id="%E4%BB%80%E4%B9%88%E6%98%AF%E6%99%BA%E6%85%A7%E6%9E%9C" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>什么是智慧果</h4>
+<p>“智慧果”是指用户在 AIdea 账户中的虚拟资产。<br />
+我们期待该应用能给予我们启发和帮助，因此命名为“智慧果”。</p>
+<h4><a id="%E6%99%BA%E6%85%A7%E6%9E%9C%E4%BD%BF%E7%94%A8%E8%A7%84%E8%8C%83" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>智慧果使用规范</h4>
+<ol>
+<li>智慧果仅可在 AIdea 应用中供账号所有者使用，不支持退款、提现或转赠他人；</li>
+<li>我们会根据您使用的服务及模型复杂度分别计费，详情参见下文“计费规则”。</li>
+</ol>
+<h4><a id="%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%E6%99%BA%E6%85%A7%E6%9E%9C" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>如何获得智慧果</h4>
+<p>您可通过以下方式获得智慧果：</p>
+<ol>
+<li><strong>注册赠送：</strong> 首次成功注册 AIdea 账号后，即可获得 30 个智慧果奖励；</li>
+<li><strong>单次购买：</strong> 您可前往 “AIdea-设置-智慧果” 页面进行购买；购买成功后将下发至您的“智慧果”账户；</li>
+<li><strong>邀请好友：</strong></li>
+</ol>
+<ol>
+<li>每次邀请新用户注册成功，您和好友都将获得 100 个智慧果作为奖励，成功邀请多人奖励可累积；</li>
+<li>好友注册成功，1 年内每购买智慧果，您将获得好友购买数量 *5% 的智慧果作为奖励；</li>
+</ol>
+<ol start="4">
+<li><strong>其他福利活动</strong></li>
+</ol>
+<h4><a id="%E8%AE%A1%E8%B4%B9%E8%A7%84%E5%88%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>计费规则</h4>
+<p><strong>1. 文本类计费逻辑：</strong></p>
+<p>在“聊一聊”、“顾问团”、“创作岛”中使用文本对话服务，将依据模型复杂度及“输入 Token 数+输出 Token 数”总和计费。</p>
+<blockquote>
+<p>注：文本对话服务因涉及上下文关联，Token 总数也包含上文输入和输出的 Token 数。</p>
+</blockquote>
+<p>1）什么是 Token：</p>
+<p>Token 通常由单词、标点符号或其他语言单位组成。它是大语言模型中处理文本的基本单元。我们输入的文本，会以 Token（词元）的形式存在于模型内部，被组合、转换或调整，以执行某个任务。</p>
+<p>以 Token 作为计费单位，不仅可以降低用户的实际使用成本，还能够更加精准的反应出用户真实消费情况，从而最大程度地保证计费模式的公平合理性。</p>
+<p>【举例】</p>
+<ul>
+<li>“人工智能” 这四个字的 Token 数为 8，其中“人”的 Token 数为 1；“工”的 Token 数为 2；“智”的 Token 数为3；“能”的 Token 数为 2；</li>
+<li>“AI” 这个单词的 Token 数为 1；</li>
+<li>“GPT” 这个单词的 Token数为 2；</li>
+</ul>
+<p>根据粗略的经验，对于中文文本，平均 1 个中文字约为 2 个 Token；对于英文文本，1 个 Token 约为 0.75 个单词。当然，您也可以使用 Token 计数器 <a href="https://platform.openai.com/tokenizer">https://platform.openai.com/tokenizer</a> ，来看看他们是如何被计算的。</p>
+<p>2）文本类计费标准（智慧果数量 个/1K Tokens）：</p>
+<table class="table">
+<tr><th>模型</th><th>价格</th></tr>
+<tr><th>gpt-3.5-turbo</th><td>3</td></tr>
+<tr><th>gpt-3.5-turbo-16k</th><td>5</td></tr>
+<tr><th>gpt-4</th><td>45</td></tr>
+<tr><th>claude-instant</th><td>5</td></tr>
+<tr><th>claude 2.0</th><td>25</td></tr>
+<tr><th>文心一言 Turbo</th><td>2</td></tr>
+<tr><th>文心一言</th><td>4</td></tr>
+<tr><th>LLama2 70B</th><td>6</td></tr>
+<tr><th>LLama2 7B 中文版</th><td>2</td></tr>
+<tr><th>ChatGLM2 6B</th><td>2</td></tr>
+<tr><th>Aquila Chat7B</th><td>2</td></tr>
+<tr><th>Bloomz 7B</th><td>2</td></tr>
+<tr><th>通义千问 Turbo</th><td>3</td></tr>
+<tr><th>通义千问 Plus</th><td>20</td></tr>
+<tr><th>讯飞星火 V2</th><td>5</td></tr>
+<tr><th>讯飞星火 V1.5</th><td>3</td></tr>
+<tr><th>商汤日日新小参数</th><td>2</td></tr>
+<tr><th>商汤日日新大参数</th><td>3</td></tr>
+<tr><th>腾讯混元</th><td>15</td></tr>
+</table>
+<p><strong>2. 图片生成计费规则：</strong></p>
+<p>在“创作岛”中使用图片生成服务，将依据图片生成数量计费，每张图片 20 个智慧果。</p>
+<p><strong>3. 语音转文本计费规则：</strong></p>
+<p>1）语音转文本计费逻辑：</p>
+<p>在“聊一聊”、“顾问团”中使用语音转文本服务，将依据使用次数计费。</p>
+<p>2）语音转文本计费标准：1 个智慧果/次。</p>
+<p><strong>4. 文件上传计费规则：</strong></p>
+<p>文件上传计费标准： 1 个智慧果/次。以下场景会涉及到文件上传：</p>
+<ul>
+<li>“创作岛” 中使用图生图功能</li>
+</ul>
+<p><strong>4. 自有 OpenAI 密钥计费规则：</strong></p>
+<p>若您已配置自有 OpenAI 密钥且配置开关处于开启状态，在“聊一聊”、“顾问团”中使用您自己的计费规则，AIdea 应用不计费。</p>
+<h4><a id="%E6%9C%89%E6%95%88%E6%9C%9F" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>有效期</h4>
+<ol>
+<li>智慧果具有有效期，有效期以具体购买规则及活动规则为准；</li>
+<li>不同有效期的智慧果可以合并使用，使用时将优先扣除您即将过期的智慧果；</li>
+<li>您可通过“AIdea-设置-购买-购买历史”查看具体有效期，逾期未使用即失效，请在有效期内尽快使用。</li>
+</ol>
+<h4><a id="%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>注意事项</h4>
+<ol>
+<li>账号所有者应按平台规定正当获取并使用智慧果，对任何涉嫌非正当途径获取、使用智慧果，或影响智慧果正常运营的行为，AIdea有权收回账号及关联账号中的智慧果，并取消相应权益；</li>
+<li>智慧果可根据活动实际情况，在法律允许范围内，对活动规则进行变动或调整，相关变动将公布在活动页面。</li>
+</ol>
+
+
+
+</div>
+</body>
+</html>
